@@ -1,0 +1,21 @@
+{
+  "name": "hain-plugin-qwant",
+  "version": "1.0.0",
+  "description": "A simple qwant search plugin for Hain",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/letroll/hain-plugin-qwant.git"
+  },
+  "keywords": [
+    "hain0"
+  ],
+  "author": "Letroll",
+  "license": "MIT",
+  "hain": {
+    "prefix": "/qw ",
+    "usage": "/qw something",
+    "icon": "#fa fa-search",
+    "redirect": "/qw "
+  }
+}
